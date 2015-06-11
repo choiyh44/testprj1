@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/home.nhn")
+	public String homeNhn(Locale locale, Model model) {
+		return home(locale, model);
+	}
+	
 }
