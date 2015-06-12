@@ -11,5 +11,6 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<p> 한글도 잘 되는지 확인해 봅니다.</p>
 </body>
 </html>
